@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 1: Qual o nome do guitarrista de Led Zeppelin?";
+        q1.pergunta = "Pergunta 2: Qual o nome do guitarrista de Led Zeppelin?";
         q1.opcaoA = "A) Tony Lommi";
         q1.opcaoB = "B) David Gilmour";
         q1.opcaoC = "C) Jimmy Page";
