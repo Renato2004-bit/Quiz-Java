@@ -35,7 +35,7 @@ public class Main {
 
         Questao q1 = new Questao();
         q1.pergunta = "Pergunta 1: Qual banda britânica lançou o álbum \"The Dark Side of the Moon\"?";
-        q1.opcaoA = "A) The Beatless";
+        q1.opcaoA = "A) The Beatles";
         q1.opcaoB = "B) Queen";
         q1.opcaoC = "C) The Who";
         q1.opcaoD = "D) Guns N' Roses";
