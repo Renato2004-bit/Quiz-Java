@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 1: Qual dessas mÃºsicas Ã© da banda The Smiths?";
+        q1.pergunta = "Pergunta 5: Qual dessas mÃºsicas Ã© da banda The Smiths?";
         q1.opcaoA = "A) Start Me Up";
         q1.opcaoB = "B) Here Comes Your Man";
         q1.opcaoC = "C) Tempo Perdido";
