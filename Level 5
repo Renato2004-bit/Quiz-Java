@@ -28,19 +28,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 5: Qual dessas mÃºsicas Ã© da banda The Smiths?";
-        q1.opcaoA = "A) Start Me Up";
-        q1.opcaoB = "B) Here Comes Your Man";
-        q1.opcaoC = "C) Tempo Perdido";
-        q1.opcaoD = "D) Heaven Knows I'm Miserable Now";
-        q1.opcaoE = "E) Good Times Bad Times";
-        q1.correta = "D";
+        q1.pergunta = "Pergunta 5: Qual música Marty toca na guitarra durante o baile /"Encanto Submarino"/?";
+        q1.opcaoA = "A) Johnny B. Goode" – Chuck Berry";
+        q1.opcaoB = "B) Rock Around the Clock" – Bill Haley";
+        q1.opcaoC = "C) Tutti Frutti – Little Richard";
+        q1.opcaoD = "D) Blue Suede Shoes" – Elvis Presley";
+        q1.correta = "A";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
