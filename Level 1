@@ -28,19 +28,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta para o futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta para o futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 1: Qual banda britânica lançou o álbum \"The Dark Side of the Moon\"?";
-        q1.opcaoA = "A) The Beatles";
-        q1.opcaoB = "B) Queen";
-        q1.opcaoC = "C) The Who";
-        q1.opcaoD = "D) Guns N' Roses";
-        q1.opcaoE = "E) Pink Floyd";
-        q1.correta = "E";
+        q1.pergunta = "Pergunta 1: Qual é o nome do cientista excêntrico que cria a máquina do tempo"?";
+        q1.opcaoA = "A) Emmett Brown";
+        q1.opcaoB = "B) Marty McFly";
+        q1.opcaoC = "C) Biff Tannen";
+        q1.opcaoD = "D) George McFly";
+        q1.correta = "A";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
