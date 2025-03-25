@@ -29,19 +29,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 8: Qual foi o Album iconico lançado pelos Beatles em 1967, que é considerado um dos mais influentes da historia do rock?";
-        q1.opcaoA = "A) Abbey Road";
-        q1.opcaoB = "B) Help";
-        q1.opcaoC = "C) Revolver";
-        q1.opcaoD = "D) Sgt. Pepper's Lonely Hearts Club Band ";
-        q1.opcaoE = "E) Não sei";
-        q1.correta = "D";
+        q1.pergunta = "Pergunta 8: Em que ano Marty e Doc viajam no segundo filme para ver o futuro?";
+        q1.opcaoA = "A) 1999";
+        q1.opcaoB = "B) 2005";
+        q1.opcaoC = "C) 2015";
+        q1.opcaoD = "D) 2025 ";
+        q1.correta = "C";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
