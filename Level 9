@@ -29,19 +29,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 9: Quem é o guitarrista famoso pela tão iconica chamada \"finger tapping\"?";
-        q1.opcaoA = "A) Jimmy Page";
-        q1.opcaoB = "B) Eddie Van Halen";
-        q1.opcaoC = "C) Eric Clapton";
-        q1.opcaoD = "D) Jimi Hendrix";
-        q1.opcaoE = "E) Paul McCartney";
-        q1.correta = "B";
+        q1.pergunta = "Pergunta 9: Que objeto do futuro Marty traz para o passado e causa grandes problemas?";
+        q1.opcaoA = "A) Um hoverboard";
+        q1.opcaoB = "B) Um capacete de realidade virtual";
+        q1.opcaoC = "C) Um jornal";
+        q1.opcaoD = "D) Um almanaque esportivo";
+        q1.correta = "D";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
