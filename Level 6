@@ -28,19 +28,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 6: Quem ficou conhecido como o Rei do Rock and Roll??";
-        q1.opcaoA = "A) Chuck Berry";
-        q1.opcaoB = "B) Elvis Presley";
-        q1.opcaoC = "C) Little Richard";
-        q1.opcaoD = "D) Jerry Lee Lewis";
-        q1.opcaoE = "E) Ringo Starr";
-        q1.correta = "B";
+        q1.pergunta = "Pergunta 6: Qual a fonte de energia utilizada para alimentar o DeLorean no primeiro filme?";
+        q1.opcaoA = "A) Vapor";
+        q1.opcaoB = "B) Gás Natural";
+        q1.opcaoC = "C) Eletricidade";
+        q1.opcaoD = "D) Plutônio";
+        q1.correta = "D";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
