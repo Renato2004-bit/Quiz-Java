@@ -28,19 +28,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 3: Eloy CasaGrande Ã© baterista de qual banda?";
-        q1.opcaoA = "A) Korn";
-        q1.opcaoB = "B) Slipknot";
-        q1.opcaoC = "C) Linkin Park";
-        q1.opcaoD = "D) AC/DC";
-        q1.opcaoE = "E) The Doors";
-        q1.correta = "B";
+        q1.pergunta = "Pergunta 3: Qual a velocidade necessária para o DeLorean viajar no tempo?";
+        q1.opcaoA = "A) 77 mph";
+        q1.opcaoB = "B) 66 mph";
+        q1.opcaoC = "C) 88 mph";
+        q1.opcaoD = "D) 99 mph";
+        q1.correta = "C";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
