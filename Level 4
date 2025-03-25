@@ -29,19 +29,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 4: Porque os Beatles se separaram ?";
-        q1.opcaoA = "A) Cada um queria seguir o seu proprio caminho";
-        q1.opcaoB = "B) Ficaram com preguiça de gravar mais musica";
-        q1.opcaoC = "C) Todos morreram";
-        q1.opcaoD = "D) The Rolling Stones fez mais sucesso";
-        q1.opcaoE = "E) Yoko estragou tudo";
-        q1.correta = "A";
+        q1.pergunta = "Pergunta 4: Qual é a marca da caminhonete que Marty deseja ter no futuro ?";
+        q1.opcaoA = "A) Ford";
+        q1.opcaoB = "B) Chevrolet";
+        q1.opcaoC = "C) Toyota";
+        q1.opcaoD = "D) Dodge";
+        q1.correta = "C";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
