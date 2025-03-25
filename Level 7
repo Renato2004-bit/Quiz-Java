@@ -28,19 +28,18 @@ public class Main {
             System.out.println(s);
         }
         System.out.println("**");
-        System.out.println("* Quiz de 15 perguntas sobre Rock! *");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
         System.out.println("**");
 
-        System.out.println("Opa, bem-vindo ao Quiz sobre Rock!, espero que se divirta!");
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 7: Qual a banda que teve sua musica como tema usada na serie CSI: Las Vegas?";
-        q1.opcaoA = "A) Yes - Roundabout";
-        q1.opcaoB = "B) Aerosmith - Sweet Emotion";
-        q1.opcaoC = "C) The Who - Who Are You";
-        q1.opcaoD = "D) Led Zeppelin - Kashmir ";
-        q1.opcaoE = "E) Steppenwolf - Born To Be Wild";
-        q1.correta = "C";
+        q1.pergunta = "Pergunta 7: Quem é o vilão principal que sempre atormenta a família McFly?";
+        q1.opcaoA = "A) Griff Tannen";
+        q1.opcaoB = "B) Biff Tannen";
+        q1.opcaoC = "C) Needles";
+        q1.opcaoD = "D) Strickland ";
+        q1.correta = "B";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
