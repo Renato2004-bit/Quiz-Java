@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 10: Em que data exata Doc Brown caiu e bateu a cabeça, tendo a ideia do capacitor de fluxo?";
+        q1.pergunta = "Pergunta 12: Em que data exata Doc Brown caiu e bateu a cabeça, tendo a ideia do capacitor de fluxo?";
         q1.opcaoA = "A) 5 de novembro de 1955";
         q1.opcaoB = "B) 26 de outubro de 1985";
         q1.opcaoC = "C) 12 de novembro de 1955";
