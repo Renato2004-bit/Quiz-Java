@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
 
         Questao q1 = new Questao();
-        q1.pergunta = "Pergunta 1: Qual é o nome completo do bisavô de Marty McFly que aparece em De Volta para o Futuro Parte III"?";
+        q1.pergunta = "Pergunta 11: Qual é o nome completo do bisavô de Marty McFly que aparece em De Volta para o Futuro Parte III"?";
         q1.opcaoA = "A) Seamus William McFly";
         q1.opcaoB = "B) Seamus Patrick McFly";
         q1.opcaoC = "C) Seamus Edward McFly";
