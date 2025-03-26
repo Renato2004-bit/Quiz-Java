@@ -1,0 +1,50 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int acertos = 0;
+        int erros = 0;
+        int totalq = 15;
+
+        //Cabeçalho
+        System.out.println("-----------------------------------------");
+        //Faculdade
+        System.out.println("Unifan - Centro Universitário Alfredo Nasser.");
+        //Nome do Aluno
+        for (String s : Arrays.asList(" Renato Pereira Martins ") {
+        //Nome_professor
+        System.out.println("Professor: Brenno Pimenta.");
+        System.out.println("-----------------------------------------");
+        //Boas_vindas
+        System.out.println("");
+
+
+
+
+
+
+            System.out.println(s);
+        }
+        System.out.println("**");
+        System.out.println("* Quiz de 15 perguntas sobre o filme De Volta Para o Futuro! *");
+        System.out.println("**");
+
+        System.out.println("Opa, bem-vindo ao Quiz sobre o filme De Volta Para o Futuro!, espero que se divirta!");
+
+        Questao q1 = new Questao();
+        q1.pergunta = "Pergunta 10: Em que data exata Doc Brown caiu e bateu a cabeça, tendo a ideia do capacitor de fluxo?";
+        q1.opcaoA = "A) 5 de novembro de 1955";
+        q1.opcaoB = "B) 26 de outubro de 1985";
+        q1.opcaoC = "C) 12 de novembro de 1955";
+        q1.opcaoD = "D) 1º de janeiro de 1885";
+        q1.correta = "A";
+
+        q1.escrevaQuestao();
+        String resposta = q1.leiaResposta();
+        if (q1.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
